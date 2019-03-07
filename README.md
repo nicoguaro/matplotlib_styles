@@ -11,7 +11,7 @@ You can use the URL for the style sheet in Python, as the example below.
 import numpy as np
 import matplotlib.pyplot as plt
 
-repo = "https://github.com/nicoguaro/matplotlib_styles"
+repo = "https://raw.githubusercontent.com/nicoguaro/matplotlib_styles/master"
 style = repo + "/styles/clean.mplstyle"
 with plt.style.context(style):
     x = np.linspace(0, 4, 201)
@@ -22,6 +22,12 @@ with plt.style.context(style):
     plt.ylabel("y")
     plt.savefig("sin_cos-ex.svg")
 ```
+
+You should get the following result
+
+<img src="./img/sin_cos-ex.svg"
+    alt="Example of use of style sheets"
+    width=400>
 
 ## How to contribute?
 
