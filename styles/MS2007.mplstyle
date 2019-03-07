@@ -1,0 +1,37 @@
+# file: MS2007.mplstyle
+# author: Nicolas Guarin-Zapata
+# description: style sheet for Matplotlib figures.
+#
+# Color palette from:
+# http://analyticsdemystified.com/excel-tips/data-visualization-that-is-color-blind-friendly-excel-2007/
+
+
+font.family : sans-serif
+
+axes.facecolor : white
+axes.edgecolor : 4d4d4d
+axes.prop_cycle : cycler('color',['4573a7', 'aa4644', '89a54e', '71588f','4298af', 'db843d', '93a9d0', 'd09392'])
+axes.grid : True
+axes.linewidth : 0.5
+
+axes.spines.left   : True
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+
+lines.linewidth : 2
+
+grid.color : 4d4d4d
+grid.linestyle : -
+grid.linewidth : 0.5
+
+figure.figsize : 5, 3
+
+legend.fancybox : False
+legend.frameon : False
+legend.facecolor : white
+legend.edgecolor : 4d4d4d
+legend.loc : center left
+
+
+

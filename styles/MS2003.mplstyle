@@ -1,0 +1,32 @@
+# file: MS2003.mplstyle
+# author: Nicolas Guarin-Zapata
+# description: style sheet for Matplotlib figures.
+#
+# Color palette from:
+# http://www.officewriter.com/blog/2013/05/08/excels-color-palette-explained
+
+
+font.family : sans-serif
+
+axes.facecolor : c0c0c0
+axes.edgecolor : black
+axes.prop_cycle : cycler('color',['000080', 'FF00FF', 'FFFF00','00FFFF','800080', '800000', '008080', '0000FF'])
+axes.grid : True
+
+axes.spines.left   : True
+axes.spines.bottom : True
+axes.spines.top    : True
+axes.spines.right  : True
+
+grid.color : black
+grid.linestyle : -
+
+lines.linewidth : 1
+
+figure.figsize : 5, 3
+
+legend.fancybox : False
+legend.frameon : True
+legend.facecolor : white
+legend.edgecolor : black
+legend.loc : center left
