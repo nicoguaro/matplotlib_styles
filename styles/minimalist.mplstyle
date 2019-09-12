@@ -1,7 +1,7 @@
 # Stylesheet for matplotlib
 #
 # Author: Nicolas Guarin-Zapata
-# Date: September, 2018
+# Date: September 2018
 
 ### Math Text
 mathtext.fontset : cm
