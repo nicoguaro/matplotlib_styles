@@ -1,0 +1,49 @@
+# Stylesheet for matplotlib
+#
+# Author: Nicolas Guarin-Zapata
+# Date: April 2020
+
+
+### Text
+text.color : 1A1A1A
+font.size : 12
+font.family : serif
+font.serif : Computer Modern Roman
+
+### Ticks
+xtick.color : 1A1A1A
+ytick.color : 1A1A1A
+
+### Axes
+axes.labelcolor : 1A1A1A
+axes.edgecolor : 1A1A1A
+axes.facecolor : FDF4D9
+axes.prop_cycle : cycler('color', ['b12d44', '4c5684', '137e93', 'b2b745', 'eb5f32', 'fcc30d'])
+axes.linewidth : 1.0
+axes.grid : True
+axes.autolimit_mode : round_numbers #data
+axes.xmargin : 0.0
+axes.ymargin : 0.0
+
+### Grids
+grid.color : bdcbc8
+grid.linestyle : -
+grid.linewidth : 0.5
+
+
+### Lines
+lines.linewidth : 2.0
+
+### Figures
+figure.figsize : 8, 5
+figure.facecolor : FDF4D9
+
+### Legends
+legend.fancybox : True
+legend.frameon : True
+legend.edgecolor : bdcbc8
+legend.facecolor : white
+legend.loc : best
+
+### Saving figures
+savefig.facecolor : FDF4D9
