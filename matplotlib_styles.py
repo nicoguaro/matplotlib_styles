@@ -22,3 +22,5 @@ for style in styles:
         plt.legend(bbox_to_anchor=(1, 0.5))
         fname = style.replace("mplstyle", "svg")
         plt.savefig(folder_out + fname, bbox_inches="tight")
+        fname = style.replace("mplstyle", "png")
+        plt.savefig(folder_out + fname, bbox_inches="tight", dpi=300)
