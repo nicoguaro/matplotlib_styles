@@ -1,0 +1,43 @@
+# Stylesheet for Matplotlib
+#
+# Author: Nicolas Guarin-Zapata
+# Date: June 2024
+
+### Math Text
+mathtext.fontset : cm
+
+### Text
+text.color : 757575
+font.size : 10
+font.family : sans-serif
+font.sans-serif: Open Sans
+
+### Ticks
+xtick.color : 757575
+ytick.color : 757575
+
+### Axes
+axes.labelcolor : 757575
+axes.edgecolor : 757575
+axes.spines.right : False
+axes.spines.top : False
+axes.prop_cycle : cycler('color', ['E574BC', '028090',  'FE5D26', '1C1F33', 'C1F7DC'])
+axes.linewidth : 1.0
+
+### Lines
+lines.linewidth : 2.0
+
+### Figures
+figure.figsize : 5.5, 3.5
+figure.autolayout : True
+
+### Images
+image.cmap: magma
+image.lut: 24
+
+### Legends
+legend.fancybox : False
+legend.frameon : False
+
+### Saving figures
+savefig.dpi : 300
